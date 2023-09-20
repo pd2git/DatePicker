@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html ><html lang="zh-CN"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" />
+	../css/zh-CN.css
+	<script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>PickerViewModel&lt;T&gt; 类</title><meta name="Title" content="PickerViewModel&lt;T&gt;" /><meta name="Help.Id" content="T:AA.DatePicker.Picker.PickerViewModel`1" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="AA.DatePicker.Picker" /><meta name="guid" content="d0a73a4e-3223-d44b-ec8a-f8cb8496457b" /><meta name="Description" content="拾取器控制模块" /><meta name="tocFile" content="../toc/IDBA.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><a href="../index.html"><div id="DocumentationTitle" class="level-item">DatePickerCore手册</div></a></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="TopicContent" class="column content is-7"><h1>Picker<wbr />View<wbr />Model<span id="LSTCBA38B6A_0" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="typeparameter">T</span><span id="LSTCBA38B6A_1" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span> 类</h1><div class="summary">
+            拾取器控制模块
+            </div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Definition</h2><div id="IDBSection"><strong>命名空间：</strong> <a href="2ff370b3-0352-62ac-c9fb-0f6762af8f6b.htm">AA.DatePicker.Picker</a><br /><strong>程序集：</strong> DatePickerCore (在 DatePickerCore.dll 中) 版本：1.1.0.0 (1.1.0.0)<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="复制"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>复制</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="identifier">PickerViewModel</span>&lt;T&gt; : <span class="identifier">MonoViewModel</span>&lt;T&gt;
+<span class="keyword">where</span> T : <span class="identifier">PickerModel</span>
+</code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><span class="noLink">Object</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">Object</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">Component</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">Behaviour</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">MonoBehaviour</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">MonoViewModel</span><span id="LSTCBA38B6A_2" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T</span></span><span id="LSTCBA38B6A_3" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">PickerViewModel<span id="LSTCBA38B6A_4" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>T<span id="LSTCBA38B6A_5" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></span></dd></dl><h4>类型参数</h4><dl><dt class="has-text-weight-normal"><span class="parameter">T</span></dt><dd>数据模块类型</dd></dl></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>构造函数</h2><div id="ID0BB0FASection"><table id="ConstructorList" class="table is-hoverable"><tr><td><a href="a75122dc-135c-a70a-4879-665c586a324b.htm">PickerViewModel<span id="LSTCBA38B6A_6" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>T<span id="LSTCBA38B6A_7" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></a></td><td> </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>属性</h2><div id="ID0TB0FASection"><table id="PropertyList" class="table is-hoverable"><tr><td><span class="noLink">ModelIns</span></td><td><br />(继承自 <span class="noLink">MonoViewModel</span><span id="LSTCBA38B6A_8" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T</span></span><span id="LSTCBA38B6A_9" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>。)</td></tr><tr><td><a href="618865ae-0c4d-0cec-ba73-2d98eb981d8b.htm">PoolManager</a></td><td>
+            对象池管理器
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>方法</h2><div id="ID0CB0FASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="9f6f5d95-0b38-5d56-7871-9b47435858cb.htm">GetChCalDay</a></td><td>
+            获取指定天的农历名称
+            </td></tr><tr><td><a href="b2b6441f-60fe-91ed-1918-cdf2b14cc035.htm">GetChCalDayName</a></td><td>
+            获取指定日期的农历名称
+            </td></tr><tr><td><a href="c1aef0a9-5ec4-fcc9-b055-f4d0cfc94964.htm">GetChCalMonth</a></td><td>
+            获取指定月份的农历名称
+            </td></tr><tr><td><a href="17639bc4-9e2d-13a5-3ef9-eb8c2428e50a.htm">Hide</a></td><td>
+            隐藏界面
+            </td></tr><tr><td><a href="2aa09edf-160d-ba1f-9c01-ae4619cd1bd2.htm">Init<span id="LSTCBA38B6A_10" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></a></td><td>
+            按照指当前日期初始化日历
+            </td></tr><tr><td><a href="3d2f018b-4a37-7564-58b7-adc6621eab5b.htm">Init(DateTime)</a></td><td>
+            按照指定时间初始化日历
+            </td></tr><tr><td><span class="noLink">OnBindModelComplete</span></td><td><br />(继承自 <span class="noLink">MonoViewModel</span><span id="LSTCBA38B6A_11" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T</span></span><span id="LSTCBA38B6A_12" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>。)</td></tr><tr><td><a href="d7ee29cc-28d5-357c-6313-2f791c98a37b.htm">OnBreakUpAllComplete</a></td><td>
+            当MVVM各元素解除完成后
+            <br />(重写 <span class="noLink">MonoViewModel.OnBreakUpAllComplete<span id="LSTCBA38B6A_13" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span>)</td></tr><tr><td><a href="ff5741b0-1c9e-2145-311b-d7de46026099.htm">OnBreakUpAllStart</a></td><td>
+            当MVVM各元素解除开始前
+            <br />(重写 <span class="noLink">MonoViewModel.OnBreakUpAllStart<span id="LSTCBA38B6A_14" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span>)</td></tr><tr><td><a href="e8f99ea7-1110-aec2-5a7e-ea1b366f5e08.htm">OnCancelPicking</a></td><td>
+            取消选择日期时
+            </td></tr><tr><td><a href="83b76b91-f26d-b3cd-3609-45d7a646455d.htm">OnCombineComplete</a></td><td>
+            当MVVM各元素连接完成时
+            <br />(重写 <span class="noLink">MonoViewModel.OnCombineComplete<span id="LSTCBA38B6A_15" data-languageSpecificText="cs=()|vb=|cpp=()|nu=()|fs=()"></span></span>)</td></tr><tr><td><a href="f9181011-4790-ad37-8787-ced54916c53a.htm">OnGoToday</a></td><td>
+            跳转至今天所在日期
+            </td></tr><tr><td><span class="noLink">OnNewModelBind</span></td><td><br />(继承自 <span class="noLink">MonoViewModel</span><span id="LSTCBA38B6A_16" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T</span></span><span id="LSTCBA38B6A_17" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>。)</td></tr><tr><td><span class="noLink">OnOldModelUnbind</span></td><td><br />(继承自 <span class="noLink">MonoViewModel</span><span id="LSTCBA38B6A_18" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T</span></span><span id="LSTCBA38B6A_19" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>。)</td></tr><tr><td><a href="c54abbf8-9f2d-ddec-7852-01c187c93e70.htm">OnPickedDate</a></td><td>
+            当确认选择日期时
+            </td></tr><tr><td><a href="052d6a41-cd77-35a6-3517-8b4826ef9bb3.htm">Show</a></td><td>
+            显示界面
+            </td></tr><tr><td><a href="82a199cf-87d1-b14c-ec73-136d15f728a1.htm">UnInitStep1</a></td><td>
+            释放资源第一步
+            </td></tr><tr><td><a href="26b1863c-b678-bfbd-b705-5629858cc22d.htm">UnInitStep2</a></td><td>
+            释放资源第二步
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>事件</h2><div id="IDAFASection"><table id="EventList" class="table is-hoverable"><tr><td><a href="5cf5ec1d-f15f-1a42-1051-635ad48391d4.htm">OnAutoAdjustDateItem</a></td><td>
+            自动修改日期尺寸事件
+            </td></tr><tr><td><a href="2e69b777-d03c-8b1e-fd5e-0102277f5e07.htm">OnCancel</a></td><td>
+            取消选择日期
+            </td></tr><tr><td><a href="fb4240f2-92a2-61be-83cd-0e0f8de966df.htm">OnDaySelected</a></td><td>
+            天对象选择时事件
+            </td></tr><tr><td><a href="00961b18-b4b1-f295-2f47-594f6c1fc4d3.htm">OnDayUpdate</a></td><td>
+            天数据更新时，可获取到每一个天对象控制模块，并对其进行操作
+            </td></tr><tr><td><a href="55a55d1e-7c3e-f9d8-f694-4bf1d441c08d.htm">OnHide</a></td><td>
+            界面隐藏时事件
+            </td></tr><tr><td><a href="2d4d010a-689d-abca-ad2b-bb6e773029b7.htm">OnInit</a></td><td>
+            初始化事件
+            </td></tr><tr><td><a href="fb17b333-5487-dc09-da56-910946e0f5fb.htm">OnInitComplete</a></td><td>
+            初始化结束
+            </td></tr><tr><td><a href="ede0f43e-de87-2d2e-d9d4-4e98e5431598.htm">OnInitDateViewDisplayOnly</a></td><td>
+            初始化仅展示模式事件
+            </td></tr><tr><td><a href="094618e0-75c5-65c9-dfb4-6e748da5fdf9.htm">OnInitDateViewPickable</a></td><td>
+            初始化可选取模式事件
+            </td></tr><tr><td><a href="77008e2d-96de-4d06-609e-14831ab38fd7.htm">OnInitMainFunResponse</a></td><td>
+            初始化主功能响应
+            </td></tr><tr><td><a href="99d3ffc4-cf34-626f-c90b-c1424b36765c.htm">OnInitMonthOperateFun</a></td><td>
+            初始化月操作功能
+            </td></tr><tr><td><a href="466b513c-f1d7-2f77-640c-1584ca03ef9a.htm">OnInitOutsideClose</a></td><td>
+            初始化空白处可关闭界面功能
+            </td></tr><tr><td><a href="e57cba4c-9ffa-c05d-078d-c1bb5351b88e.htm">OnInitRangeSelFunResponse</a></td><td>
+            初始化范围选择功能响应事件
+            </td></tr><tr><td><a href="e3c9cdca-2656-815d-6c1d-5d5b36788b4d.htm">OnInitStart</a></td><td>
+            初始化开始前
+            </td></tr><tr><td><a href="5ed827cb-872e-ecee-3f70-530953c9d239.htm">OnInitYearOperateFun</a></td><td>
+            初始化年操作功能
+            </td></tr><tr><td><a href="67e81773-98e4-c11e-5ca8-efd016db169c.htm">OnPicked</a></td><td>
+            获取选择的时间
+            </td></tr><tr><td><a href="356a8847-901f-895a-c71b-5965668edb73.htm">OnRangeEndSel</a></td><td>
+            日期范围终了点选择事件
+            </td></tr><tr><td><a href="c7cb5ebf-a4c7-7ee6-a648-1427a1b4e090.htm">OnRangePicked</a></td><td>
+            获取时间范围成功事件
+            </td></tr><tr><td><a href="66a54988-dada-5566-db36-0a6d356f5ef3.htm">OnRangePickedFailed</a></td><td>
+            获取时间范围失败事件，比如没有选择日期。
+            </td></tr><tr><td><a href="47edce5e-0c5b-7f20-8794-756dd9908620.htm">OnRangeSelComplete</a></td><td>
+            日期范围选择事件
+            </td></tr><tr><td><a href="fea44b46-bf34-8e38-bbbb-9eff6cc0563f.htm">OnRangeStartSel</a></td><td>
+            日期范围起始点选择事件
+            </td></tr><tr><td><a href="3e4e7133-a135-f4ab-b35e-0bfbd901f269.htm">OnShow</a></td><td>
+            界面显示时事件
+            </td></tr><tr><td><a href="7eb55ece-c69b-039d-6d3a-f35c9c256c02.htm">OnSpawnDayItem</a></td><td>
+            生成一个天对象
+            </td></tr><tr><td><a href="e3a0a224-62c8-3586-ce8a-c871f253ea46.htm">OnUnInitComplete</a></td><td>
+            释放资源结束后事件
+            </td></tr><tr><td><a href="f2f9b1ac-3bbf-0a02-8592-b46e41281383.htm">OnUnInitStart</a></td><td>
+            释放资源前事件
+            </td></tr><tr><td><a href="6394929e-b80c-06a9-c710-c619e1a937c0.htm">OnUpdateMonth</a></td><td>
+            更新月份完成时事件
+            </td></tr><tr><td><a href="5c343645-a47a-4570-bd14-4b93f6bb8144.htm">OnUpdateYear</a></td><td>
+            更新年份完成时事件
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>字段</h2><div id="ID2FASection"><table id="FieldList" class="table is-hoverable"><tr><td><a href="b54ba47c-b840-5d19-9c3b-06db0a19570f.htm">m_ChCalDayPrefixes</a></td><td>
+            农历日前缀
+            </td></tr><tr><td><a href="0d7151ff-0dad-3210-4f5e-4707912118ab.htm">m_ChCalDays</a></td><td>
+            农历日
+            </td></tr><tr><td><a href="1a38d9b5-bf60-92ac-7536-4429b2128013.htm">m_ChCalMonths</a></td><td>
+            农历月
+            </td></tr><tr><td><a href="599d2d56-343b-af14-f9a3-09d31086f894.htm">m_CurSelDay</a></td><td>
+            当前选择的天，如果为空，则表示没有选择
+            </td></tr><tr><td><a href="9f30734c-b465-9496-22b4-94e91ef33a0a.htm">m_IsInRangeSel</a></td><td>
+            当前是否在日期范围选择状态
+            </td></tr><tr><td><a href="c806f611-7e99-254f-b507-cb5c7d67a12a.htm">m_RangeSelDaysList</a></td><td>
+            日期范围选择点列表
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>参见</h2><div id="seeAlsoSection"><h4>引用</h4><div><a href="2ff370b3-0352-62ac-c9fb-0f6762af8f6b.htm">AA.DatePicker.Picker 命名空间</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Definition</a></li><li><a class="quickLink">构造函数</a></li><li><a class="quickLink">属性</a></li><li><a class="quickLink">方法</a></li><li><a class="quickLink">事件</a></li><li><a class="quickLink">字段</a></li><li><a class="quickLink">参见</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column"> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script></body></html>

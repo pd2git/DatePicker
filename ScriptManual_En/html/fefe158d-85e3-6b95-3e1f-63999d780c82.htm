@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html ><html lang="en-US"><head><meta charset="utf-8" /><meta name="viewport" content="width=device-width, initial-scale=1" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" href="../css/bulma.css" /><link rel="stylesheet" href="../css/font-awesome.min.css" /><link rel="stylesheet" href="../css/presentationStyle.css" /><link rel="stylesheet" href="../css/vs.min.css" /><script src="../scripts/jquery-3.5.1.min.js"></script><script src="../scripts/clipboard.min.js"></script><script src="../scripts/highlight.min.js"></script><script src="../scripts/presentationStyle.js"></script><title>PickerView&lt;T1, T2&gt; Class</title><meta name="Title" content="PickerView&lt;T1, T2&gt;" /><meta name="Help.Id" content="T:AA.DatePicker.Picker.PickerView`2" /><meta name="Help.ContentType" content="Reference" /><meta name="container" content="AA.DatePicker.Picker" /><meta name="guid" content="fefe158d-85e3-6b95-3e1f-63999d780c82" /><meta name="Description" content="Picker View Module" /><meta name="tocFile" content="../toc/IDBA.xml" /></head><body><div class="fixedLayout"><div id="Header" class="fixedHeader"><div class="pageHeader level mb-0 py-2 px-4"><div id="TitleContainer" class="level-left"><a href="../index.html"><div id="DocumentationTitle" class="level-item">Documented For DatePickerCore</div></a></div><div id="LangFilterSearchContainer" class="level-right"><div class="level-item"><div class="dropdown is-hoverable"><div class="dropdown-trigger"><button class="button" aria-haspopup="true" aria-controls="dropdown-menu"><span id="CurrentLanguage"></span><span class="icon is-small"><i class="fa fa-angle-down" aria-hidden="true"></i></span></button></div><div class="dropdown-menu" role="menu"><div id="LanguageSelections" class="dropdown-content"><a class="dropdown-item languageFilterItem" data-languageId="cs">C#</a></div></div></div></div><div class="level-item"><form id="SearchForm" action="#" onsubmit="TransferToSearchPage(); return false;"><div class="field"><div class="control has-icons-left"><input id="SearchTerms" class="input" type="text" maxlength="200" placeholder="Search" /><span class="icon is-small is-left"><i class="fa fa-search"></i></span><button id="SearchButton" type="submit" class="is-hidden"></button></div></div></form></div></div></div></div><div class="fixedContent"><nav class="breadcrumb my-1 px-2 border-bottom" role="navigation"><ul id="TopicBreadcrumbs" /></nav><div class="columns pl-5 pr-5 fixedContent"><div id="ShowHideTOCColumn" class="column is-hidden-tablet"><a id="ShowHideTOC">Show/Hide TOC</a></div><div id="TOCColumn" class="column is-hidden-mobile"><nav class="toc"><ul id="TableOfContents" class="toc-menu" /></nav></div><div id="TopicContent" class="column content is-7"><h1>Picker<wbr />View<span id="LST51AC5773_0" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="typeparameter">T1</span>, <span class="typeparameter">T2</span><span id="LST51AC5773_1" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span> Class</h1><div class="summary">
+                Picker View Module
+            </div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Definition</h2><div id="IDBSection"><strong>Namespace:</strong> <a href="2ff370b3-0352-62ac-c9fb-0f6762af8f6b.htm">AA.DatePicker.Picker</a><br /><strong>Assembly:</strong> DatePickerCore (in DatePickerCore.dll) Version: 1.1.0.0 (1.1.0.0)<div class="codeSnippet"><div class="codeHeader"><span class="codeHeaderTitle">C#</span><span class="buttons"><button class="button is-small is-light copyCode" title="Copy"><span class="icon is-small"><i class="fa fa-copy"></i></span><span>Copy</span></button></span></div><div class="codePanel hljs"><pre xml:space="preserve"><code class="language-cs"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="identifier">PickerView</span>&lt;T1, T2&gt; : <span class="identifier">MonoView</span>&lt;T1, T2&gt;
+<span class="keyword">where</span> T1 : <span class="identifier">PickerViewModel</span>&lt;T2&gt;
+<span class="keyword">where</span> T2 : <span class="identifier">PickerModel</span>
+</code></pre></div></div><dl class="inheritanceHierarchy"><dt>Inheritance</dt><dd><span class="noLink">Object</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">Object</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">Component</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">Behaviour</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">MonoBehaviour</span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="noLink">MonoView</span><span id="LST51AC5773_2" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_3" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>  <span class="icon is-small"><i class="fa fa-arrow-right"></i></span>  <span class="selflink">PickerView<span id="LST51AC5773_4" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>T1, T2<span id="LST51AC5773_5" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></span></dd></dl><h4>Type Parameters</h4><dl><dt class="has-text-weight-normal"><span class="parameter">T1</span></dt><dd>control module type</dd><dt class="has-text-weight-normal"><span class="parameter">T2</span></dt><dd>data module type</dd></dl></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Constructors</h2><div id="IDCFASection"><table id="ConstructorList" class="table is-hoverable"><tr><td><a href="2b02a011-a099-0502-8bdb-210c82e28024.htm">PickerView<span id="LST51AC5773_6" data-languageSpecificText="cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'"></span>T1, T2<span id="LST51AC5773_7" data-languageSpecificText="cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;"></span></a></td><td> </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Properties</h2><div id="ID0CB0FASection"><table id="PropertyList" class="table is-hoverable"><tr><td><span class="noLink">BindingData</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_8" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_9" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><span class="noLink">BindingVM</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_10" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_11" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><a href="84f9fb99-bb66-7cc8-9d20-8d6b55474809.htm">Cancel</a></td><td>
+                cancel button
+            </td></tr><tr><td><a href="b09c191c-5002-1ed2-f623-427b8e889cc3.htm">GoToday</a></td><td>
+                Jump to today button
+            </td></tr><tr><td><a href="0dce55e1-a8a5-d139-dfdc-cb455e1e9513.htm">LastMonth</a></td><td>
+                previous month jump button
+            </td></tr><tr><td><a href="038a35e7-50f8-04e2-da53-c80e0826c977.htm">LastYear</a></td><td>
+                previous year jump button
+            </td></tr><tr><td><a href="282adb01-3c8c-59d3-44ee-7f1a6e544e36.htm">MainFunRoot</a></td><td>
+                main ribbon root object
+            </td></tr><tr><td><a href="4875ba00-9aaf-4d20-2b16-1a5ffed82b77.htm">MonthShower</a></td><td>
+                month display
+            </td></tr><tr><td><a href="1b352975-31f8-051d-bccc-92a6858cfd88.htm">NextMonth</a></td><td>
+                next month jump button
+            </td></tr><tr><td><a href="8716dfac-ad59-2019-7a6e-9bcc8874946b.htm">NextYear</a></td><td>
+                next year jump button
+            </td></tr><tr><td><a href="70a17726-6481-c3f0-173f-4945174e0a36.htm">Picked</a></td><td>
+                Confirm date selection button
+            </td></tr><tr><td><a href="2d9ed722-96a7-1029-a1d5-afa62a40f175.htm">RangeDateEnd</a></td><td>
+                Date Range End Date Display
+            </td></tr><tr><td><a href="dcf0c4ad-525b-9857-49f2-ad90bd0168ed.htm">RangeDateStart</a></td><td>
+                Date range starting point date display
+            </td></tr><tr><td><a href="fe3bfadc-0bad-3335-dd35-d140ad082897.htm">RangeTableEnd</a></td><td>
+                Date range end point date jump button
+            </td></tr><tr><td><a href="1eeaf4df-97b1-3161-eb02-3fef8b32daf6.htm">RangeTableRoot</a></td><td>
+                Date Range Selection Ribbon Root Object
+            </td></tr><tr><td><a href="42d125da-79ea-51c6-4397-6c964cebf47a.htm">RangeTableStart</a></td><td>
+                Date range start date jump button
+            </td></tr><tr><td><a href="11effad1-b2ca-ef21-2bb8-1f2a362d3a85.htm">YearShower</a></td><td>
+                year display
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Methods</h2><div id="IDDFASection"><table id="MethodList" class="table is-hoverable"><tr><td><a href="532336a1-1678-3cba-7a46-9a3110518957.htm">OnAutoAdjustDateItem</a></td><td>
+                Automatically modify date size
+            </td></tr><tr><td><span class="noLink">OnBindModelComplete</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_12" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_13" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><span class="noLink">OnBindViewModelComplete</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_14" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_15" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><span class="noLink">OnBreakUpAllComplete</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_16" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_17" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><span class="noLink">OnBreakUpAllStart</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_18" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_19" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><span class="noLink">OnCombineComplete</span></td><td><br />(Inherited from <span class="noLink">MonoView</span><span id="LST51AC5773_20" data-languageSpecificText="cpp=&lt;|cs=&lt;|fs=&lt;|vb=(Of |nu=("></span><span class="selflink"><span class="typeparameter">T1</span></span>, <span class="selflink"><span class="typeparameter">T2</span></span><span id="LST51AC5773_21" data-languageSpecificText="cpp=&gt;|cs=&gt;|fs=&gt;|vb=)|nu=)"></span>)</td></tr><tr><td><a href="1d42dbb0-4dd2-d137-2967-7a0f17374bce.htm">OnHide</a></td><td>
+                when the interface is hidden
+            </td></tr><tr><td><a href="1c1eb34a-54bf-a6df-b499-99abc6bbaee2.htm">OnInit</a></td><td>
+                when initializing
+            </td></tr><tr><td><a href="562084b0-0c19-c7fc-ff52-f84afc2f7f5a.htm">OnInitDateViewDisplayOnly</a></td><td>
+                Initialize display-only mode events
+            </td></tr><tr><td><a href="d6638a12-227c-747f-edf3-316f1ed2902e.htm">OnInitDateViewPickable</a></td><td>
+                When initializing the selectable mode
+            </td></tr><tr><td><a href="f69b1480-fd27-54c5-d961-ce48da77e543.htm">OnInitMainFunResponse</a></td><td>
+                Initialize main function response
+            </td></tr><tr><td><a href="7bbd3c97-c5dc-7884-88db-6d8868a1ff34.htm">OnInitMonthOperateFun</a></td><td>
+                Initialize the month operation function
+            </td></tr><tr><td><a href="20139f02-a16f-06a8-783a-17244bbf3fff.htm">OnInitOutsideClose</a></td><td>
+                Initialize the blank space to close the interface function
+            </td></tr><tr><td><a href="51068ae8-6a14-88d3-54dd-8b3b65090602.htm">OnInitRangeSelFunResponse</a></td><td>
+                Initialize range selection function response
+            </td></tr><tr><td><a href="422e5bf5-daec-fdd1-7c31-151783de42c0.htm">OnInitYearOperateFun</a></td><td>
+                Initialize the year operation function
+            </td></tr><tr><td><a href="0b56bf92-6acb-ad40-8c76-59953d99aa68.htm">OnMonthChange</a></td><td>
+                when the month changes
+            </td></tr><tr><td><a href="b6f79e0f-42b9-1d80-6c5c-29721ee2387c.htm">OnNewModelBind</a></td><td>
+                when binding new data
+            <br />(Overrides <span class="noLink">MonoView.OnNewModelBind(UTP)</span>)</td></tr><tr><td><a href="09814950-e0fb-a90b-c23c-e3016c18555a.htm">OnNewViewModelBind</a></td><td>
+                When binding a new control module
+            <br />(Overrides <span class="noLink">MonoView.OnNewViewModelBind(UTP)</span>)</td></tr><tr><td><a href="55e3e85b-5a7f-e003-39fb-055214e73167.htm">OnOldModelUnbind</a></td><td>
+                When unbinding new data
+            <br />(Overrides <span class="noLink">MonoView.OnOldModelUnbind(UTP)</span>)</td></tr><tr><td><a href="e73a519d-4f27-9443-84c1-d3918cd48e2c.htm">OnOldViewModelUnbind</a></td><td>
+                When unbinding a new control module
+            <br />(Overrides <span class="noLink">MonoView.OnOldViewModelUnbind(UTP)</span>)</td></tr><tr><td><a href="1e101568-051c-26f4-300e-ce56e02ecae6.htm">OnRangeEndSel</a></td><td>
+                When selecting the end of the date range
+            </td></tr><tr><td><a href="37a3f286-96fe-4082-06a0-dfa9a17387f4.htm">OnRangeStartSel</a></td><td>
+                When selecting a date range starting point
+            </td></tr><tr><td><a href="43cb5dfc-1a1f-0db0-2c76-1c21264828b0.htm">OnShow</a></td><td>
+                when the interface shows
+            </td></tr><tr><td><a href="f84e37b8-32f0-531e-1a70-c7fe566492af.htm">OnSpawnDayItem</a></td><td>
+                Generate a day object
+            </td></tr><tr><td><a href="6ece01aa-60fa-17b6-a114-4bee987152d1.htm">OnUnInitMonthOperateFun</a></td><td>
+                Clean up month operation function
+            </td></tr><tr><td><a href="51aadc77-9251-adf0-142e-2dd93507e3cf.htm">OnUnInitOutsideClose</a></td><td>
+                Clear the blank space to close the interface function
+            </td></tr><tr><td><a href="79101ef9-3e7f-1324-ae7d-df58b0af0661.htm">OnUnInitRangeSelFunResponse</a></td><td>
+                Clean range select function response
+            </td></tr><tr><td><a href="8bdcf911-45f7-e144-6453-3e4ebeb87bed.htm">OnUnInitTopFunResponse</a></td><td>
+                Clean up the main function response
+            </td></tr><tr><td><a href="6c66bbd5-4938-8e6b-cd4f-d4f658fb830c.htm">OnUnInitYearOperateFun</a></td><td>
+                Cleanup year operation function
+            </td></tr><tr><td><a href="caebca68-4f7c-6f64-ca0d-de0cec406236.htm">OnYearChange</a></td><td>
+                when the year changes
+            </td></tr><tr><td><a href="900d68ad-91be-1c27-ae94-3da4b8e5ed52.htm">ToggleOperateArea</a></td><td>
+                Show/hide operation area (including main function area and date range selection function area)
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>Fields</h2><div id="IDAFASection"><table id="FieldList" class="table is-hoverable"><tr><td><a href="f928c577-51bc-a0dc-8d2b-75abb824700b.htm">m_CalendarRoot</a></td><td>
+                date root object
+            </td></tr><tr><td><a href="70e5b7a6-3ff9-c436-fe09-4d13a86ef530.htm">m_OutsideClickCloser</a></td><td>
+                Transparent button outside the interface
+            </td></tr></table></div><h2 class="quickLinkHeader"><span class="icon toggleSection" tabindex="0"><i class="fa fa-angle-down"></i></span>See Also</h2><div id="seeAlsoSection"><h4>Reference</h4><div><a href="2ff370b3-0352-62ac-c9fb-0f6762af8f6b.htm">AA.DatePicker.Picker Namespace</a></div></div></div><div id="InThisArticleColumn" class="column is-hidden-mobile"><nav class="menu sticky is-hidden"><p class="menu-label"><strong>In This Article</strong></p><ul id="InThisArticleMenu" class="menu-list"><li><a class="quickLink">Definition</a></li><li><a class="quickLink">Constructors</a></li><li><a class="quickLink">Properties</a></li><li><a class="quickLink">Methods</a></li><li><a class="quickLink">Fields</a></li><li><a class="quickLink">See Also</a></li></ul></nav></div></div></div><footer id="PageFooter" class="footer border-top py-3 fixedFooter"><div class="columns"><div class="column"> 
+				</div><div class="column"> 
+				</div></div></footer></div><script>$(function(){
+SetDefaultLanguage("cs");
+LoadTocFile(null, null);
+InitializeQuickLinks();
+
+$(".toggleSection" ).click(function () {
+    SectionExpandCollapse(this);
+});
+
+$(".toggleSection").keypress(function () {
+    SectionExpandCollapseCheckKey(this, event)
+});
+hljs.highlightAll();
+});</script></body></html>
