@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.3.4.0" projectFile="E:\MyProjects\GD\DatePicker\trunk\Program\Doc\DatePickerCore_zh-CN.shfbproj" started="2023/9/20 16:48:55">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2023.3.4.0" projectFile="E:\MyProjects\GD\DatePicker\trunk\Program\Doc\DatePickerCore_zh-CN.shfbproj" started="2024/2/18 16:58:19">
 <buildStep step="Initializing">
 The Sandcastle tools are located in &#39;E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
 Locating components in the following folder(s):
@@ -29,7 +29,7 @@ Copying XML comments files
 </buildStep>
 <buildStep step="GenerateSharedContent">
 Generating shared content files (zh-CN, 中文(简体，中国))...
-    Last step completed in 00:00:00.0208
+    Last step completed in 00:00:00.0050
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
@@ -37,9 +37,9 @@ Generating API filter for MRefBuilder...
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
-[e:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-676bb6ff-e45b-40c7-9d1f-554f70d3ad02.proj]
-生成启动时间为 2023/9/20 16:48:56。
-节点 1 上的项目“E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\GenerateRefInfo-676bb6ff-e45b-40c7-9d1f-554f70d3ad02.proj”(默认目标)。
+[e:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-b376e45b-b482-403b-9a49-a6e9f6527ae0.proj]
+生成启动时间为 2024/2/18 16:58:20。
+节点 1 上的项目“E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\GenerateRefInfo-b376e45b-b482-403b-9a49-a6e9f6527ae0.proj”(默认目标)。
 PrepareForBuild:
   正在创建目录“obj\Debug\”。
 GenerateBindingRedirects:
@@ -49,32 +49,32 @@ GenerateRefInfo:
   ? Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 1 assemblies for reflection and 3 dependency assemblies.
-  Wrote information on 2 namespaces, 8 types, and 175 members
+  Wrote information on 2 namespaces, 8 types, and 174 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-已完成生成项目“E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\GenerateRefInfo-676bb6ff-e45b-40c7-9d1f-554f70d3ad02.proj”(默认目标)的操作。
-    Last step completed in 00:00:00.9424
+已完成生成项目“E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\GenerateRefInfo-b376e45b-b482-403b-9a49-a6e9f6527ae0.proj”(默认目标)的操作。
+    Last step completed in 00:00:00.7611
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:00.0456
+    Last step completed in 00:00:00.0425
 </buildStep>
 <buildStep step="AddNamespaceGroups">
 Adding namespace group entries...
 Added 0 namespace group entries
-    Last step completed in 00:00:00.0157
+    Last step completed in 00:00:00.0150
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
-    Last step completed in 00:00:00.0071
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.0057
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.0667
+    Last step completed in 00:00:00.0460
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
@@ -88,15 +88,15 @@ Merging conceptual and additional tables of contents...
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.0215
+    Last step completed in 00:00:00.0200
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
-    Last step completed in 00:00:00.2583
+    Last step completed in 00:00:00.1111
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0082
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -187,8 +187,6 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:AA.DatePicke
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:AA.DatePicker.DayItem.DayItemView] Unknown reference link target &#39;T:AA.TinyMVVM.View.MonoView`2&#39;.
 SHFB: Warning BE0066: ShowMissingComponent: [M:AA.DatePicker.DayItem.DayItemView.#ctor] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.DayItem.DayItemView.m_Clicker] Unknown reference link target &#39;T:UnityEngine.UI.Button&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.DayItem.DayItemView.m_DayChCalShower] Unknown reference link target &#39;T:UnityEngine.UI.Text&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.DayItem.DayItemView.m_DayShower] Unknown reference link target &#39;T:UnityEngine.UI.Text&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.DayItem.DayItemView.m_DisableColor] Unknown reference link target &#39;T:UnityEngine.Color&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.DayItem.DayItemView.m_NormalColor] Unknown reference link target &#39;T:UnityEngine.Color&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.DayItem.DayItemView.m_RangeSelEffect] Unknown reference link target &#39;T:UnityEngine.RectTransform&#39;.
@@ -296,9 +294,9 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.Pi
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.LastMonth] Unknown reference link target &#39;T:UnityEngine.UI.Button&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.LastYear] Unknown reference link target &#39;T:UnityEngine.UI.Button&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.Picker.PickerView`2.m_CalendarRoot] Unknown reference link target &#39;T:UnityEngine.RectTransform&#39;.
+SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.Picker.PickerView`2.m_DaysRoot] Unknown reference link target &#39;T:UnityEngine.Transform&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.Picker.PickerView`2.m_OutsideClickCloser] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.MainFunRoot] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.MonthShower] Unknown reference link target &#39;T:UnityEngine.UI.Text&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.NextMonth] Unknown reference link target &#39;T:UnityEngine.UI.Button&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.NextYear] Unknown reference link target &#39;T:UnityEngine.UI.Button&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:AA.DatePicker.Picker.PickerView`2.OnInitMainFunResponse(UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)] Unknown reference link target &#39;T:UnityEngine.Events.UnityAction&#39;.
@@ -311,12 +309,9 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:AA.DatePicker.Picker.Pi
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:AA.DatePicker.Picker.PickerView`2.OnInitYearOperateFun(UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)] Unknown reference link target &#39;T:UnityEngine.Events.UnityAction&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [M:AA.DatePicker.Picker.PickerView`2.OnInitYearOperateFun(UnityEngine.Events.UnityAction,UnityEngine.Events.UnityAction)] Unknown reference link target &#39;T:UnityEngine.Events.UnityAction&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.Picked] Unknown reference link target &#39;T:UnityEngine.UI.Button&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.RangeDateEnd] Unknown reference link target &#39;T:UnityEngine.UI.Text&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.RangeDateStart] Unknown reference link target &#39;T:UnityEngine.UI.Text&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.RangeTableEnd] Unknown reference link target &#39;T:UnityEngine.UI.Toggle&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.RangeTableRoot] Unknown reference link target &#39;T:UnityEngine.GameObject&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.RangeTableStart] Unknown reference link target &#39;T:UnityEngine.UI.Toggle&#39;.
-SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerView`2.YearShower] Unknown reference link target &#39;T:UnityEngine.UI.Text&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:AA.DatePicker.Picker.PickerViewModel`1] Unknown reference link target &#39;T:UnityEngine.Object&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:AA.DatePicker.Picker.PickerViewModel`1] Unknown reference link target &#39;T:UnityEngine.Component&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [T:AA.DatePicker.Picker.PickerViewModel`1] Unknown reference link target &#39;T:UnityEngine.Behaviour&#39;.
@@ -347,13 +342,13 @@ SHFB: Warning BE0066: ResolveReferenceLinksComponent: [Properties.T:AA.DatePicke
 SHFB: Warning BE0066: ShowMissingComponent: [M:AA.DatePicker.Picker.PickerViewModel`1.#ctor] Missing &lt;summary&gt; documentation
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [P:AA.DatePicker.Picker.PickerViewModel`1.PoolManager] Unknown reference link target &#39;T:AA.TinyMVVM.ObjectPool.ObjectPoolManager&#39;.
 SHFB: Warning BE0066: ResolveReferenceLinksComponent: [F:AA.DatePicker.Picker.PickerViewModel`1.RangeSelDayData.m_MVVMCore] Unknown reference link target &#39;T:AA.TinyMVVM.Core.MVVMCore&#39;.
-Processed 206 topic(s)
-233 warning(s)
+Processed 205 topic(s)
+228 warning(s)
 CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 3 of 15.
 CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 1 of 30.
 <plugIn name="Website Table of Contents Generator" behavior="After" priority="1000">
 Generating TOC fragment files
-</plugIn>    Last step completed in 00:00:05.8398
+</plugIn>    Last step completed in 00:00:03.3870
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -389,26 +384,26 @@ E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Defaul
 E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.inc.php -&gt; E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\Output\Website\SearchHelp.inc.php
 E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\SearchHelp.php -&gt; E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\Output\Website\SearchHelp.php
 E:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\Default2022\RootWebsiteContent\Web.Config -&gt; E:\MyProjects\GD\DatePicker\trunk\Program\Doc\Help\Working\Output\Website\Web.Config
-    Last step completed in 00:00:00.2577
+    Last step completed in 00:00:00.0330
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
-    Last step completed in 00:00:00.1786
+    Last step completed in 00:00:00.1648
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
 
-Copied 370 files for the website content
-    Last step completed in 00:00:00.2877
+Copied 368 files for the website content
+    Last step completed in 00:00:00.2854
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:00.1357
+    Last step completed in 00:00:00.1413
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 2023/9/20 16:49:04.  Total time: 00:00:09.0397
+Build completed successfully at 2024/2/18 16:58:25.  Total time: 00:00:05.7822
 
 </buildStep>
 </shfbBuild>
